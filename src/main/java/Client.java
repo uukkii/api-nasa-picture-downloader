@@ -21,7 +21,7 @@ import java.util.List;
 public class Client {
 
     private static final String REMOTE_NASA_URL = "https://api.nasa.gov/planetary/apod?api_key=ZMB9Nz5kALfj1AYM2NejepUp0yN9lkD4zDEBhdI8";
-    private static ObjectMapper mapper = new ObjectMapper();
+    private static final ObjectMapper mapper = new ObjectMapper();
 
     public static void main(String[] args) throws IOException {
 
